@@ -8,24 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		FB5D77F22C0CA61200A574EE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FB5D77F12C0CA61200A574EE /* RealityKitContent */; };
-		FB5D77F42C0CA61200A574EE /* arkit_playgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D77F32C0CA61200A574EE /* arkit_playgroundApp.swift */; };
-		FB5D77F62C0CA61200A574EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D77F52C0CA61200A574EE /* ContentView.swift */; };
+		FB5D77F42C0CA61200A574EE /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D77F32C0CA61200A574EE /* Main.swift */; };
+		FB5D77F62C0CA61200A574EE /* HandTrackingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D77F52C0CA61200A574EE /* HandTrackingParentView.swift */; };
 		FB5D77F82C0CA61200A574EE /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D77F72C0CA61200A574EE /* ImmersiveView.swift */; };
-		FB5D77FA2C0CA61200A574EE /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = FB5D77F92C0CA61200A574EE /* ImageBasedLighting.skybox */; };
 		FB5D77FC2C0CA61300A574EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5D77FB2C0CA61300A574EE /* Assets.xcassets */; };
 		FB5D77FF2C0CA61300A574EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5D77FE2C0CA61300A574EE /* Preview Assets.xcassets */; };
+		FB5D780B2C0CDF0000A574EE /* HandTrackingChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D780A2C0CDF0000A574EE /* HandTrackingChildView.swift */; };
+		FB5D780D2C0CE68600A574EE /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D780C2C0CE68600A574EE /* NavigationView.swift */; };
+		FB5D78102C0CE7A500A574EE /* WorldTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D780F2C0CE7A500A574EE /* WorldTrackingView.swift */; };
+		FB5D78122C0D0AF200A574EE /* SceneTrackingImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D78112C0D0AF200A574EE /* SceneTrackingImmersiveView.swift */; };
+		FBF7F6D42C0E002700B11D6A /* FingerTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7F6D32C0E002700B11D6A /* FingerTrackingView.swift */; };
+		FBF7F6D62C0E32AF00B11D6A /* FingerTrackingImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7F6D52C0E32AF00B11D6A /* FingerTrackingImmersiveView.swift */; };
+		FBF7F6D82C0E35B500B11D6A /* ImmersiveViewToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7F6D72C0E35B500B11D6A /* ImmersiveViewToggle.swift */; };
+		FBF7F6DB2C0E39AB00B11D6A /* SceneTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7F6DA2C0E39AB00B11D6A /* SceneTrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB5D77EC2C0CA61200A574EE /* arkit-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arkit-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D77F02C0CA61200A574EE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		FB5D77F32C0CA61200A574EE /* arkit_playgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkit_playgroundApp.swift; sourceTree = "<group>"; };
-		FB5D77F52C0CA61200A574EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB5D77F32C0CA61200A574EE /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		FB5D77F52C0CA61200A574EE /* HandTrackingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTrackingParentView.swift; sourceTree = "<group>"; };
 		FB5D77F72C0CA61200A574EE /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
-		FB5D77F92C0CA61200A574EE /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		FB5D77FB2C0CA61300A574EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5D77FE2C0CA61300A574EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB5D78002C0CA61300A574EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5D780A2C0CDF0000A574EE /* HandTrackingChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTrackingChildView.swift; sourceTree = "<group>"; };
+		FB5D780C2C0CE68600A574EE /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		FB5D780F2C0CE7A500A574EE /* WorldTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrackingView.swift; sourceTree = "<group>"; };
+		FB5D78112C0D0AF200A574EE /* SceneTrackingImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTrackingImmersiveView.swift; sourceTree = "<group>"; };
+		FBF7F6D32C0E002700B11D6A /* FingerTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerTrackingView.swift; sourceTree = "<group>"; };
+		FBF7F6D52C0E32AF00B11D6A /* FingerTrackingImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerTrackingImmersiveView.swift; sourceTree = "<group>"; };
+		FBF7F6D72C0E35B500B11D6A /* ImmersiveViewToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveViewToggle.swift; sourceTree = "<group>"; };
+		FBF7F6DA2C0E39AB00B11D6A /* SceneTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTrackingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +74,11 @@
 		FB5D77EE2C0CA61200A574EE /* arkit-playground */ = {
 			isa = PBXGroup;
 			children = (
-				FB5D77F32C0CA61200A574EE /* arkit_playgroundApp.swift */,
-				FB5D77F52C0CA61200A574EE /* ContentView.swift */,
+				FBF7F6D92C0E35DC00B11D6A /* Components */,
+				FB5D780E2C0CE6EE00A574EE /* Views */,
+				FB5D77F32C0CA61200A574EE /* Main.swift */,
 				FB5D77F72C0CA61200A574EE /* ImmersiveView.swift */,
-				FB5D77F92C0CA61200A574EE /* ImageBasedLighting.skybox */,
+				FB5D780C2C0CE68600A574EE /* NavigationView.swift */,
 				FB5D77FB2C0CA61300A574EE /* Assets.xcassets */,
 				FB5D78002C0CA61300A574EE /* Info.plist */,
 				FB5D77FD2C0CA61300A574EE /* Preview Content */,
@@ -85,6 +100,28 @@
 				FB5D77FE2C0CA61300A574EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB5D780E2C0CE6EE00A574EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D77F52C0CA61200A574EE /* HandTrackingParentView.swift */,
+				FB5D780A2C0CDF0000A574EE /* HandTrackingChildView.swift */,
+				FB5D780F2C0CE7A500A574EE /* WorldTrackingView.swift */,
+				FBF7F6DA2C0E39AB00B11D6A /* SceneTrackingView.swift */,
+				FB5D78112C0D0AF200A574EE /* SceneTrackingImmersiveView.swift */,
+				FBF7F6D32C0E002700B11D6A /* FingerTrackingView.swift */,
+				FBF7F6D52C0E32AF00B11D6A /* FingerTrackingImmersiveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBF7F6D92C0E35DC00B11D6A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7F6D72C0E35B500B11D6A /* ImmersiveViewToggle.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +187,6 @@
 			files = (
 				FB5D77FC2C0CA61300A574EE /* Assets.xcassets in Resources */,
 				FB5D77FF2C0CA61300A574EE /* Preview Assets.xcassets in Resources */,
-				FB5D77FA2C0CA61200A574EE /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5D77F62C0CA61200A574EE /* ContentView.swift in Sources */,
-				FB5D77F42C0CA61200A574EE /* arkit_playgroundApp.swift in Sources */,
+				FB5D77F62C0CA61200A574EE /* HandTrackingParentView.swift in Sources */,
+				FB5D78102C0CE7A500A574EE /* WorldTrackingView.swift in Sources */,
+				FB5D77F42C0CA61200A574EE /* Main.swift in Sources */,
+				FB5D780D2C0CE68600A574EE /* NavigationView.swift in Sources */,
+				FBF7F6DB2C0E39AB00B11D6A /* SceneTrackingView.swift in Sources */,
+				FBF7F6D42C0E002700B11D6A /* FingerTrackingView.swift in Sources */,
+				FB5D78122C0D0AF200A574EE /* SceneTrackingImmersiveView.swift in Sources */,
+				FBF7F6D82C0E35B500B11D6A /* ImmersiveViewToggle.swift in Sources */,
 				FB5D77F82C0CA61200A574EE /* ImmersiveView.swift in Sources */,
+				FB5D780B2C0CDF0000A574EE /* HandTrackingChildView.swift in Sources */,
+				FBF7F6D62C0E32AF00B11D6A /* FingerTrackingImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +356,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -338,6 +383,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
